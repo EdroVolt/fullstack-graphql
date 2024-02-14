@@ -1,0 +1,13 @@
+.pet{
+    animation: fadeOut 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    0%   {opacity: 100%;}
+    20%  {opacity: 75%;}
+    40%  {opacity: 50%;}
+    60%  {opacity: 25%;}
+    80%  {opacity: 0%;}
+    100% {display: none; opacity: 0%;}
+}
